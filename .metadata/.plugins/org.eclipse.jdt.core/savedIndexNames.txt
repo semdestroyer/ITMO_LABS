@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/sem/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+1686274598.index
+575340225.index
+3141775227.index

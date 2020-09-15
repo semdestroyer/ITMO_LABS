@@ -1,0 +1,21 @@
+package lab1;
+
+public class main 
+{
+	
+	
+	public static void main(String args[])
+	{
+		short d[];
+		double x[];
+		double d2[][];
+		for(int i = 1; i<=20; i++)
+		{
+			d[i] = i;
+			
+		}
+		
+		
+	}
+
+}

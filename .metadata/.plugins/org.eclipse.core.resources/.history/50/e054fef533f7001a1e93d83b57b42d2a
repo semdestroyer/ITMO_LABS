@@ -1,0 +1,56 @@
+package lab1;
+
+public class main 
+{
+	
+	
+	public static void main(String args[])
+	{
+		short d[] = new short[20];
+		double x[] = new double[11];
+		double d2[][] = new double[20][11];
+		for(int i = 1; i<d.length + 1; i++)
+		{
+			d[i] = (short) i;	
+		}
+		for(int i = 0;i<x.length ;i++)
+		{
+			x[i] =  (int) (7 - Math.random() * 13);
+		}
+		for(int i = 0; i < 20; i++)
+		{
+			for(int j = 0; j < 11; j++)
+			{
+				if(d[i] == 12)
+				{
+			
+					d2[i][j] = Math.cos(sqr(Math.cos(x[j]/Math.atan((x[j]+1)/12) - 0.5)));	
+				}
+				else if(d[i] == 3 || d[i] == 5 || d[i] == 7 || d[i] == 8 || d[i] == 10 || d[i] == 11
+						|| d[i] == 13 || d[i] == 14 || d[i] == 17 || d[i] == 20)
+				{
+					d2[i][j] = ;
+				}
+				else 
+				{
+					d2[i][j] = Math.tan()/2;
+				}
+			}
+		}
+		
+	}
+	public static double sqr(double x)
+	{
+		return x*x;
+	}
+//	public static double sqrn(double x, dobule n)
+//	{
+//		double o = x;
+//		for(int i = 0; i<n; i++)
+//		{
+//			o = o*x;
+//		}
+//		return n;
+//	}
+
+}

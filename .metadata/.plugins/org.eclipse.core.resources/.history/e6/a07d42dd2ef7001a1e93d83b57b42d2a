@@ -1,0 +1,26 @@
+package lab1;
+
+public class main 
+{
+	
+	
+	public static void main(String args[])
+	{
+		short d[] = new short[20];
+		double x[] = new double[11];
+		double d2[][] = null;
+		for(int i = 1; i<d.length + 1; i++)
+		{
+			d[i] = (short) i;	
+		}
+		for(int i = 0;i<x.length ;i++)
+		{
+			x[i] =  (int) (7 - Math.random() * 13);
+		}
+	
+		
+		
+		
+	}
+
+}
